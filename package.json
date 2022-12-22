@@ -1,0 +1,23 @@
+{
+  "name": "getimages",
+  "version": "1.0.0",
+  "description": "get images",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "get",
+    "images"
+  ],
+  "author": "Cristian Díaz <danubiodiaz2003edf@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
