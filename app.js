@@ -29,5 +29,9 @@ app.get('/', function(req, res) {
   })   
 })
 
+app.get('/', (req, res) => {
+	res.send("La paágina de inicio")
+})
+
 app.listen(port)
 console.log('API escuchando en el puerto ' + port)
