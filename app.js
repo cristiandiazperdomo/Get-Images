@@ -1,7 +1,10 @@
-var express = require('express'); //llamamos a Express
-var app = express();
+let express = require('express'); //llamamos a Express
+let cors = require('cors'); //llamamos a Cors
+let app = express();
 
-var port = process.env.PORT || 8080  // establecemos nuestro puerto
+app.use(cors());
+
+let port = process.env.PORT || 8080  // establecemos nuestro puerto
 
 app.get('/', function(req, res) {
   res.json({
